@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Config
+preferences: {}
+clusters:
+- cluster:
+    certificate-authority-data: [REMOVIDO!]
+    server: [REMOVIDO!].k8s.ondigitalocean.com
+  name: do-nyc1-k8s_iniciativa_devops_nadilson
+contexts:
+- context:
+    cluster: do-nyc1-k8s_iniciativa_devops_nadilson
+    user: do-nyc1-k8s_iniciativa_devops_nadilson-admin
+  name: do-nyc1-k8s_iniciativa_devops_nadilson
+current-context: do-nyc1-k8s_iniciativa_devops_nadilson
+users:
+- name: do-nyc1-k8s_iniciativa_devops_nadilson-admin
+  user:
+    token: dop_v1_[REMOVIDO!]
